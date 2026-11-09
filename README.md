@@ -84,7 +84,11 @@ La carte intègre les principaux éléments nécessaires au fonctionnement du mi
 
 ### Programmation
 
-Le microcontrôleur est programmé à l'aide de l'**IDE Arduino**. Le téléversement du programme s'effectue au moyen d'un **adaptateur FTDI USB-série**, connecté à la carte via une liaison UART.
+Le microcontrôleur est programmé à l'aide de l'**IDE Arduino**. Le téléversement du programme s'effectue au moyen d'un **programmateur/adaptateur FTDI USB-série**, connecté à la carte via une liaison UART.
+
+L'adaptateur FTDI assure l'interface entre le port USB de l'ordinateur et la communication série UART utilisée par l'ATmega328P. Il permet notamment de transmettre les données de programmation depuis l'IDE Arduino vers le microcontrôleur. La liaison nécessite un raccordement cohérent des signaux de communication (TX et RX croisés), ainsi qu'une masse commune (GND). Selon le modèle utilisé et le montage de la carte, d'autres broches peuvent être présentes, notamment l'alimentation et le contrôle de réinitialisation.
+
+Le brochage exact du connecteur FTDI de cette réalisation sera précisé après confirmation du modèle de programmateur et de l'affectation des broches utilisées.
 
 Le tutoriel [Passion Électronique – Programmer un ATmega328P](https://passionelectronique.fr/programmer-atmega328p/) a servi de ressource d'apprentissage pour comprendre cette méthode de programmation.
 
@@ -176,7 +180,11 @@ The board integrates the main elements required for the microcontroller to opera
 
 ### Programming
 
-The microcontroller is programmed using the **Arduino IDE**. Firmware is uploaded through an **FTDI USB-to-serial adapter**, connected to the board using a UART serial interface.
+The microcontroller is programmed using the **Arduino IDE**. Firmware is uploaded through an **FTDI USB-to-serial programmer/adapter**, connected to the board using a UART serial interface.
+
+The FTDI adapter provides an interface between the computer's USB port and the UART serial communication used by the ATmega328P. It transfers the firmware data from the Arduino IDE to the microcontroller. The communication signals must be connected correctly (TX and RX crossed), and the adapter and board must share a common ground (GND). Depending on the adapter model and board design, additional pins may be available for power and reset control.
+
+The exact pinout of this project's FTDI connector will be documented once the programmer model and the connector's pin assignments have been confirmed.
 
 The [Passion Électronique – Programming an ATmega328P](https://passionelectronique.fr/programmer-atmega328p/) tutorial was used as a learning resource to understand this programming method.
 
