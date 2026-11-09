@@ -53,6 +53,16 @@
 
 La carte a été conçue sous **KiCad 9.0.7**, puis fabriquée, assemblée et testée. Elle constitue une plateforme matérielle permettant d'expérimenter avec le microcontrôleur et ses entrées/sorties, tout en utilisant un environnement de développement familier : l'IDE Arduino.
 
+### Brochage du microcontrôleur ATmega328P-P
+
+Le composant utilisé sur cette carte est référencé **ATmega328P-P** dans la liste des composants. L'illustration ci-dessous présente son brochage en boîtier DIP-28 et permet de repérer les principales broches : alimentation (VCC et AVCC), masses (GND), réinitialisation (RESET), oscillateur (XTAL1 et XTAL2), entrées analogiques (ADC) et entrées/sorties numériques (ports B, C et D).
+
+<p align="center">
+  <img src="images/IMG-20241212-WA0017(1)-2.jpg" alt="Brochage du microcontrôleur ATmega328P-P" width="650">
+</p>
+
+Le repérage des broches est utile pour comprendre le schéma électronique, le raccordement des périphériques et l'affectation des entrées/sorties dans un programme Arduino. Il faut toutefois se référer au schéma de la carte pour connaître les connexions réellement utilisées dans cette réalisation.
+
 ### Architecture électronique
 
 La carte intègre les principaux éléments nécessaires au fonctionnement du microcontrôleur :
@@ -89,6 +99,14 @@ Le microcontrôleur est programmé à l'aide de l'**IDE Arduino**. Le télévers
 L'adaptateur FTDI assure l'interface entre le port USB de l'ordinateur et la communication série UART utilisée par l'ATmega328P. Il permet notamment de transmettre les données de programmation depuis l'IDE Arduino vers le microcontrôleur. La liaison nécessite un raccordement cohérent des signaux de communication (TX et RX croisés), ainsi qu'une masse commune (GND). Selon le modèle utilisé et le montage de la carte, d'autres broches peuvent être présentes, notamment l'alimentation et le contrôle de réinitialisation.
 
 Le brochage exact du connecteur FTDI de cette réalisation sera précisé après confirmation du modèle de programmateur et de l'affectation des broches utilisées.
+
+Le programmateur FTDI utilisé est présenté ci-dessous. Il s'agit de l'adaptateur USB-série qui assure la liaison entre l'ordinateur et l'interface UART de la carte.
+
+<p align="center">
+  <img src="images/IMG-20250218-WA0004-2.jpg" alt="Programmateur FTDI USB-série" width="550">
+</p>
+
+Cet adaptateur convertit les données échangées par USB en signaux série UART compatibles avec la communication du microcontrôleur. Pour la liaison série, les lignes TX et RX doivent être raccordées de manière croisée et les deux équipements doivent partager une masse GND. Le brochage exact de l'adaptateur et son raccordement au connecteur de la carte seront détaillés à partir des inscriptions visibles sur le module et du schéma de la carte.
 
 Le tutoriel [Passion Électronique – Programmer un ATmega328P](https://passionelectronique.fr/programmer-atmega328p/) a servi de ressource d'apprentissage pour comprendre cette méthode de programmation.
 
@@ -149,6 +167,16 @@ Les documents techniques sont regroupés dans le répertoire `documents/` :
 
 The board was designed using **KiCad 9.0.7**, then manufactured, assembled and tested. It provides a hardware platform for experimenting with the microcontroller and its I/O pins while using a familiar development environment: the Arduino IDE.
 
+### ATmega328P-P microcontroller pinout
+
+The component listed in the bill of materials is **ATmega328P-P**. The illustration below shows its DIP-28 pinout and helps identify the main pins: power supply (VCC and AVCC), ground (GND), reset (RESET), oscillator (XTAL1 and XTAL2), analog inputs (ADC), and digital input/output pins (ports B, C and D).
+
+<p align="center">
+  <img src="images/IMG-20241212-WA0017(1)-2.jpg" alt="ATmega328P-P microcontroller pinout" width="650">
+</p>
+
+Understanding the pinout is useful when reading the electronic schematic, wiring peripherals, and assigning inputs and outputs in an Arduino program. The board schematic should still be used to identify the connections actually implemented in this design.
+
 ### Electronic architecture
 
 The board integrates the main elements required for the microcontroller to operate:
@@ -185,6 +213,14 @@ The microcontroller is programmed using the **Arduino IDE**. Firmware is uploade
 The FTDI adapter provides an interface between the computer's USB port and the UART serial communication used by the ATmega328P. It transfers the firmware data from the Arduino IDE to the microcontroller. The communication signals must be connected correctly (TX and RX crossed), and the adapter and board must share a common ground (GND). Depending on the adapter model and board design, additional pins may be available for power and reset control.
 
 The exact pinout of this project's FTDI connector will be documented once the programmer model and the connector's pin assignments have been confirmed.
+
+The FTDI programmer used in this project is shown below. It is the USB-to-serial adapter that provides the connection between the computer and the board's UART interface.
+
+<p align="center">
+  <img src="images/IMG-20250218-WA0004-2.jpg" alt="FTDI USB-to-serial programmer" width="550">
+</p>
+
+The adapter converts USB data from the computer into UART serial signals used by the microcontroller. For serial communication, TX and RX must be connected crosswise, and both devices must share a common GND. The exact adapter pinout and its connection to the board will be documented using the labels visible on the module and the board schematic.
 
 The [Passion Électronique – Programming an ATmega328P](https://passionelectronique.fr/programmer-atmega328p/) tutorial was used as a learning resource to understand this programming method.
 
