@@ -39,15 +39,32 @@ Le tutoriel [Passion Électronique – Programmer un ATmega328P](https://passion
 
 ### Documents du projet
 
-Les documents de conception seront ajoutés dans le dépôt au fur et à mesure :
+Les fichiers techniques sont disponibles dans le dossier [`documents/`](documents/) :
 
-| Document | Description |
+| Document | Accès |
 |---|---|
-| Schéma électronique | Schéma du circuit de la carte |
-| Implantation des composants | Vue côté composants du PCB |
-| Typon | Dessin des pistes du circuit imprimé |
-| Liste des composants | Nomenclature des composants utilisés |
-| Photographies | Vues de la carte fabriquée et assemblée |
+| Schéma électronique | [SCHEMATIC ATMEGA328P.pdf](documents/SCHEMATIC%20ATMEGA328P.pdf) |
+| Implantation des composants | [COTE COMPOSANT ATMEGA 328P.pdf](documents/COTE%20COMPOSANT%20ATMEGA%20328P.pdf) |
+| Typon du circuit imprimé | [TYPON ATMEGA328P.pdf](documents/TYPON%20ATMEGA328P.pdf) |
+| Liste des composants | [liste_composants.pdf](documents/liste_composants.pdf) |
+
+Les photographies de la carte et les vues de réalisation sont regroupées dans [`images/`](images/).
+
+### Galerie
+
+Quelques vues du projet :
+
+<p align="center">
+  <img src="images/IMG-20260506-WA0021-1.jpeg" alt="Carte ATmega328P - vue 1" width="32%">
+  <img src="images/IMG-20260507-WA0021-1.jpeg" alt="Carte ATmega328P - vue 2" width="32%">
+  <img src="images/IMG-20260509-WA0026-1.jpeg" alt="Carte ATmega328P - vue 3" width="32%">
+</p>
+
+<p align="center">
+  <img src="images/IMG-20260509-WA0033-1.jpeg" alt="Carte ATmega328P - vue 4" width="32%">
+  <img src="images/IMG-20260508-WA0001-1.jpeg" alt="Carte ATmega328P - vue 5" width="32%">
+  <img src="images/IMG-20260506-WA0025.jpg" alt="Carte ATmega328P - vue 6" width="32%">
+</p>
 
 ### État de réalisation
 
@@ -90,15 +107,32 @@ The [Passion Électronique – Programming an ATmega328P](https://passionelectro
 
 ### Project documentation
 
-The design files and project images will be added to this repository progressively:
+The technical files are available in the [`documents/`](documents/) folder:
 
-| Document | Description |
+| Document | Access |
 |---|---|
-| Schematic | Board electronic schematic |
-| Component placement | PCB component-side view |
-| PCB artwork | Copper track artwork |
-| Bill of materials | List of electronic components |
-| Photographs | Views of the manufactured and assembled board |
+| Electronic schematic | [SCHEMATIC ATMEGA328P.pdf](documents/SCHEMATIC%20ATMEGA328P.pdf) |
+| Component placement | [COTE COMPOSANT ATMEGA 328P.pdf](documents/COTE%20COMPOSANT%20ATMEGA%20328P.pdf) |
+| PCB copper artwork | [TYPON ATMEGA328P.pdf](documents/TYPON%20ATMEGA328P.pdf) |
+| Bill of materials | [liste_composants.pdf](documents/liste_composants.pdf) |
+
+Project photographs and board views are collected in the [`images/`](images/) folder.
+
+### Gallery
+
+A selection of project views:
+
+<p align="center">
+  <img src="images/IMG-20260506-WA0021-1.jpeg" alt="ATmega328P board - view 1" width="32%">
+  <img src="images/IMG-20260507-WA0021-1.jpeg" alt="ATmega328P board - view 2" width="32%">
+  <img src="images/IMG-20260509-WA0026-1.jpeg" alt="ATmega328P board - view 3" width="32%">
+</p>
+
+<p align="center">
+  <img src="images/IMG-20260509-WA0033-1.jpeg" alt="ATmega328P board - view 4" width="32%">
+  <img src="images/IMG-20260508-WA0001-1.jpeg" alt="ATmega328P board - view 5" width="32%">
+  <img src="images/IMG-20260506-WA0025.jpg" alt="ATmega328P board - view 6" width="32%">
+</p>
 
 ### Project status
 
