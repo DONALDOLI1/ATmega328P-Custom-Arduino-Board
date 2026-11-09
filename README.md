@@ -92,7 +92,13 @@ Le tutoriel [Passion Électronique – Programmer un ATmega328P](https://passion
 
 ### Galerie du projet
 
-Les photographies suivantes documentent différentes vues de la carte réalisée et de son environnement de développement.
+**Vue 3D de la carte conçue sous KiCad 9.0.7 :**
+
+<p align="center">
+  <img src="images/IMG-20260427-WA0025-2.jpg" alt="Vue 3D de la carte ATmega328P sous KiCad" width="700">
+</p>
+
+Les photographies suivantes documentent différentes vues de la carte réalisée et de son environnement de développement. Les autres photographies du projet sont disponibles dans le dossier [`images/`](images/), tandis que les documents PDF techniques sont regroupés dans [`documents/`](documents/).
 
 | Vue | Aperçu |
 |---|---|
@@ -177,7 +183,13 @@ The [Passion Électronique – Programming an ATmega328P](https://passionelectro
 
 ### Project gallery
 
-The following photographs document different views of the completed board and its development environment.
+**3D view of the board designed in KiCad 9.0.7:**
+
+<p align="center">
+  <img src="images/IMG-20260427-WA0025-2.jpg" alt="3D view of the ATmega328P board in KiCad" width="700">
+</p>
+
+The following photographs document different views of the completed board and its development environment. All other project photographs are available in the [`images/`](images/) folder, while the technical PDF documents are stored in [`documents/`](documents/).
 
 | View | Preview |
 |---|---|
