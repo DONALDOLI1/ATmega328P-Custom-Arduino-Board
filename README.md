@@ -108,6 +108,7 @@ Les photographies suivantes documentent différentes vues de la carte réalisée
 | Vue 4 | ![Carte ATmega328P - vue 4](images/IMG-20260509-WA0033-1.jpeg) |
 | Vue 5 | ![Carte ATmega328P - vue 5](images/IMG-20260508-WA0001-1.jpeg) |
 | Vue 6 | ![Carte ATmega328P - vue 6](images/IMG-20260506-WA0025.jpg) |
+| Vue 7 | ![Carte ATmega328P - vue 7](images/IMG-20260512-WA0004.jpg) |
 
 ### État de réalisation
 
@@ -199,6 +200,7 @@ The following photographs document different views of the completed board and it
 | View 4 | ![ATmega328P board - view 4](images/IMG-20260509-WA0033-1.jpeg) |
 | View 5 | ![ATmega328P board - view 5](images/IMG-20260508-WA0001-1.jpeg) |
 | View 6 | ![ATmega328P board - view 6](images/IMG-20260506-WA0025.jpg) |
+| View 7 | ![ATmega328P board - view 7](images/IMG-20260512-WA0004.jpg) |
 
 ### Project status
 
